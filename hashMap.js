@@ -1,6 +1,6 @@
-class HashMap {
+class HashMap{
 	constructor(size = 10) {
-		this._hashTable = new Array(size);
+		this._hashTable = new Map();
 		this.length = 0;
 		this.capacity = size;
 		this._deleted = 0;
@@ -72,4 +72,4 @@ class HashMap {
 	}
 }
 
-module.exports = Hashmap;
+module.exports = HashMap;
